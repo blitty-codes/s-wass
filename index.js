@@ -20,8 +20,8 @@ const askQuestion = (query) => {
 
 const fetchRandomQuotes = async (url) => {
 	return axios(url)
-	.then((response) => response.data)
-	.catch((err) => console.error(err));
+		.then((response) => response.data)
+		.catch((err) => console.error(err));
 }
 
 const sendMessage = async (page, msg) => {
@@ -81,7 +81,7 @@ const sendMessage = async (page, msg) => {
 
 			} else
 				bw.close();
-h		} while (option !== '0');
+		} while (option !== '0');
 
 	} catch (e) {
 		console.error(e);

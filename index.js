@@ -81,8 +81,7 @@ const sendMessage = async (page, msg) => {
 
 			} else
 				bw.close();
-
-		} while (option !== '0');
+h		} while (option !== '0');
 
 	} catch (e) {
 		console.error(e);

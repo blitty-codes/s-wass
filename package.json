@@ -1,0 +1,23 @@
+{
+  "name": "s-wassap",
+  "version": "1.0.0",
+  "description": "Too fast too furious msgs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blitty-codes/s-wass.git"
+  },
+  "author": "blitty-codes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blitty-codes/s-wass/issues"
+  },
+  "homepage": "https://github.com/blitty-codes/s-wass#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "puppeteer": "^10.0.0"
+  }
+}
